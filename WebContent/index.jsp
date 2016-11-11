@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="${root}/css/header.css">
 <body>
 <div>건용수정</div>
+<div>서버 수정</div>
 <jsp:include page="/WEB-INF/view/header/header.jsp"/>
 <div class="fdbody">
 	<div class="header">
