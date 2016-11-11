@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+.customer_center_header{
+	width:1000px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.customer_center_top{
+   width:900px;
+   margin:0px auto;
+   margin-top:50px;
+   border-bottom: 1px solid #414141;
+   text-align:left;
+}
+
+.customer_center_font{
+	font-weight: bold;
+    font-size:30px;
+}
+
+/*-------------------------- review 테이블 ------------------------------- */
+.review_title{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.review_title>div{
+	float:left;
+}
+
+.review_title>div:nth-child(1){   
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(2){   
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(3){   
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(4){    
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(5){   
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(6){  
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review 리스트 -----------------------------*/
+.review_list{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.review_list>div{
+	float:left;
+/* 	border:1px solid black; */
+}
+
+.review_list>div:nth-child(1){		/* 번호 */
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(2){		/* 분류 */
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(3){		/* 제목 */
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:left;
+}
+
+.review_list>div:nth-child(4){		/* 작성일 */
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(5){
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+.review_list>div:nth-child(6){
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+/*-------------------------- 검색 -----------------------------*/
+.header_search{
+	padding: 10px;
+	margin-left: 620px;
+}
+
+.searchbutton{
+	text-align: right;
+	margin-right: 100px;
+}
+.header_search>input[type="text"]{
+	width: 200px;
+	height: 24px;
+	}
+.header_search>input[type="button"]{
+	width: 50px;
+	height: 30px; 
+	background-color: #fac28b;
+	color: White;
+	padding-bottom: 2px;
+	border: none;
+}

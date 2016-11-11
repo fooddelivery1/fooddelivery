@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="foodDelivery.manageMapper">
+
+	<select id="memberList" resultType="com.foodDelivery.memberDto.MemberDto">
+	  <![CDATA[
+		  SELECT * FROM
+	(SELECT ROWNUM rnum, A.* FROM
+	(SELECT * FROM member
+	ORDER BY member_num)A)
+	WHERE rnum >=  #{startRow} AND rnum <= #{endRow}
+	         ]]>
+
+	</select>
+
+	<select id="listCount" resultType="int" parameterType="java.util.HashMap">
+		SELECT COUNT(*) FROM ${table}
+	</select>
+
+	<select id="memberInf" parameterType="java.util.HashMap"
+		resultType="com.foodDelivery.memberDto.MemberDto">
+		select * from member where member_num = #{member_num}
+	</select>
+
+	<delete id="memberDelete" parameterType="java.util.HashMap">
+		delete from member where member_email=#{member_email} and
+		member_num=#{member_num}
+	</delete>
+
+	<select id="qnaList" resultType="com.foodDelivery.qnaDto.QnaDto">
+     <![CDATA[
+		SELECT *
+		from (SELECT ROWNUM rnum, A.* 
+		        FROM (SELECT * 
+		              FROM qnaview
+		              ORDER BY qna_num) A)
+		WHERE rnum >= #{startRow} AND rnum <= #{endRow}
+            ]]>
+	</select>
+
+	<select id="reviewList" resultType="com.foodDelivery.reviewDto.ReviewDto">
+     <![CDATA[
+		SELECT *
+		from (SELECT ROWNUM rnum, A.* 
+		        FROM (SELECT * 
+		              FROM reviewview
+		              ORDER BY review_num) A)
+		WHERE rnum >= #{startRow} AND rnum <= #{endRow}
+            ]]>
+	</select>
+
+
+	<select id="recommandList" resultType="com.foodDelivery.recommandDto.RecommandDto">
+     <![CDATA[
+		SELECT *
+		from (SELECT ROWNUM rnum, A.* 
+		        FROM (SELECT * 
+		              FROM recommandview
+		              ORDER BY recommand_num) A)
+		WHERE rnum >= #{startRow} AND rnum <= #{endRow}
+            ]]>
+	</select>
+	
+	<select id="noticeList" resultType="com.foodDelivery.noticeDto.NoticeDto">
+		SELECT notice_num, notice_title, notice_content
+		FROM notice
+	</select>
+	
+	<select id="memberReview" parameterType="java.util.HashMap" resultType="com.foodDelivery.reviewDto.ReviewDto">
+         select * from reviewview where member_num = #{member_num} 
+   </select>
+   
+   <select id="memberQna" parameterType="java.util.HashMap" resultType="com.foodDelivery.qnaDto.QnaDto">
+         select * from qnaview where member_num = #{member_num} 
+   </select>
+    
+   <select id="memberRecommand" parameterType="java.util.HashMap" resultType="com.foodDelivery.recommandDto.RecommandDto">
+         select * from recommandView where member_num = #{member_num} 
+   </select>
+
+
+
+
+</mapper>

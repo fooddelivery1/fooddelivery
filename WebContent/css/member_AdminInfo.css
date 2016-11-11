@@ -1,0 +1,506 @@
+@CHARSET "UTF-8";
+
+.customer_center_header{
+	width:1000px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.customer_center_top{
+   width:1000px;
+   margin:0px auto;
+   margin-top:50px;
+   border-bottom: 1px solid #414141;
+   text-align:left;
+   
+}
+
+.secondline{
+   width: 900px;
+   margin:0px auto;
+   margin-top:50px;
+   border-bottom: 1px solid #414141;
+   text-align:left;
+}
+
+.thirdline{
+   width: 800px;
+   margin:0px auto;
+   margin-top:25px;
+   border-bottom: 1px solid #414141;
+   text-align:left;
+}
+.customer_center_font{
+	font-weight: bold;
+    font-size:30px;
+}
+
+/*-------------------------- review 테이블 ------------------------------- */
+.review_title{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.review_title>div{
+	float:left;
+}
+
+.review_title>div:nth-child(1){   
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(2){   
+	margin-left:5px;
+	width:70px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(3){   
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(4){    
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(5){   
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(6){  
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(7){  
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title>div:nth-child(8){  
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review 테이블2 ------------------------------- */
+.review_title2{
+	width:700px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.review_title2>div{
+	float:left;
+}
+
+.review_title2>div:nth-child(1){   
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title2>div:nth-child(2){   
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title2>div:nth-child(3){   
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title2>div:nth-child(4){    
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title2>div:nth-child(5){   
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review 테이블3 ------------------------------- */
+.review_title3{
+	width:700px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.review_title3>div{
+	float:left;
+}
+
+.review_title3>div:nth-child(1){   
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title3>div:nth-child(2){   
+	margin-left:5px;
+	width:280px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title3>div:nth-child(3){   
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title3>div:nth-child(4){    
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review5 테이블 ------------------------------- */
+.review_title5{
+	width:700px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.review_title5>div{
+	float:left;
+}
+
+.review_title5>div:nth-child(1){   
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title5>div:nth-child(2){   
+	margin-left:5px;
+	width:160px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title5>div:nth-child(3){   
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title5>div:nth-child(4){    
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title5>div:nth-child(5){   
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_title5>div:nth-child(6){   
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+
+
+/*-------------------------- review 리스트 -----------------------------*/
+.review_list{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.review_list>div{
+	float:left;
+/* 	border:1px solid black; */
+}
+
+.review_list>div:nth-child(1){		/* 번호 */
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(2){		/* 분류 */
+	margin-left:5px;
+	width:70px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(3){		/* 제목 */
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(4){		/* 작성일 */
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(5){
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+.review_list>div:nth-child(6){
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(7){  
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list>div:nth-child(8){  
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review2 리스트 -----------------------------*/
+.review_list2{
+	width:700px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.review_list2>div{
+	float:left;
+/* 	border:1px solid black; */
+}
+
+.review_list2>div:nth-child(1){		/* 번호 */
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list2>div:nth-child(2){		/* 분류 */
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list2>div:nth-child(3){		/* 제목 */
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list2>div:nth-child(4){		/* 작성일 */
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list2>div:nth-child(5){
+	margin-left:5px;
+	width:80px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review3 리스트 -----------------------------*/
+.review_list3{
+	width:700px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.review_list3>div{
+	float:left;
+/* 	border:1px solid black; */
+}
+
+.review_list3>div:nth-child(1){
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list3>div:nth-child(2){		
+	margin-left:5px;
+	width:280px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list3>div:nth-child(3){	
+	margin-left:5px;
+	width:200px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list3>div:nth-child(4){	
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+/*-------------------------- review5 리스트 -----------------------------*/
+.review_list5{
+	width:700px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.review_list5>div{
+	float:left;
+}
+
+.review_list5>div:nth-child(1){
+	margin-left:5px;
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list5>div:nth-child(2){		
+	margin-left:5px;
+	width:160px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list5>div:nth-child(3){	
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list5>div:nth-child(4){	
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list5>div:nth-child(5){	
+	margin-left:5px;
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.review_list5>div:nth-child(6){	
+	margin-left:5px;
+	width:100px;
+	height:30px;
+	text-align:center;
+}
+/*-------------------------- 검색 -----------------------------*/
+
+.button1{
+	width:80px;
+	height:28px;
+	margin-bottom: 2px;
+}
+
+.button2{
+	width:80px;
+	height:28px;
+	margin-bottom: 2px;
+	margin-left: 620px;
+}
+
+.button3{
+	width:80px;
+	height:28px;
+	margin-bottom: 2px;
+	margin-left: 610px;
+}
+
+.button4{
+	width:80px;
+	height:28px;
+	margin-bottom: 2px;
+	margin-left: 500px;
+}
+
+.button5{
+	width:80px;
+	height:28px;
+	margin-bottom: 2px;
+	margin-left: 550px;
+}
+
+.qnaW_input {
+   width:120px;
+   height:30px;   
+}

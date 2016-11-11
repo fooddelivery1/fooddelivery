@@ -1,0 +1,53 @@
+@CHARSET "EUC-KR";
+
+.qnaW_main {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.qnaW_input {
+   width:300px;
+   height:30px;   
+}
+.qnaW_top1 {
+	width:900px;
+	margin:0px auto;
+	margin-top:50px;
+	border-bottom:1px black solid;
+	text-align:left;
+}
+
+.qnaW_font {
+	font-weight: bold;
+    font-size:30px;
+}
+
+.qnaW_main2{
+	margin-top:70px;
+}
+
+.qnaW_title {
+	margin:0px auto;
+	width:500px;
+	margin-bottom:5px;
+}
+
+.qnaW_font2 {
+	width:150px;
+	text-align:left;
+	border-bottom: 1px solid black;
+	float:left;
+}
+
+.qnaW_button {
+	height:40px;
+	width:100px;
+	margin-top:30px;
+	
+	border: 1px solid;
+   	background-color: #bbb9b9;
+   	color: White;
+}

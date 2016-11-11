@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:component-scan base-package="com.foodDelivery.cartController"/>
+	<context:component-scan base-package="com.foodDelivery.cartDao"/>
+	<context:component-scan base-package="com.foodDelivery.cartService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.faqController"/>
+	<context:component-scan base-package="com.foodDelivery.faqDao"/>
+	<context:component-scan base-package="com.foodDelivery.faqService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.favoriteController"/>
+	<context:component-scan base-package="com.foodDelivery.favoriteDao"/>
+	<context:component-scan base-package="com.foodDelivery.favoriteService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.manageController"/>
+	<context:component-scan base-package="com.foodDelivery.manageDao"/>
+	<context:component-scan base-package="com.foodDelivery.manageService"/>
+	
+
+	<context:component-scan base-package="com.foodDelivery.marketController"/>
+	<context:component-scan base-package="com.foodDelivery.marketDao"/>
+	<context:component-scan base-package="com.foodDelivery.marketService"/>
+
+	<context:component-scan base-package="com.foodDelivery.memberController"/>
+	<context:component-scan base-package="com.foodDelivery.memberDao"/>
+	<context:component-scan base-package="com.foodDelivery.memberService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.menuController"/>
+	<context:component-scan base-package="com.foodDelivery.menuDao"/>
+	<context:component-scan base-package="com.foodDelivery.menuService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.noticeController"/>
+	<context:component-scan base-package="com.foodDelivery.noticeDao"/>
+	<context:component-scan base-package="com.foodDelivery.noticeService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.orderController"/>
+	<context:component-scan base-package="com.foodDelivery.orderDao"/>
+	<context:component-scan base-package="com.foodDelivery.orderService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.qnaController"/>
+	<context:component-scan base-package="com.foodDelivery.qnaDao"/>
+	<context:component-scan base-package="com.foodDelivery.qnaService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.recommandController"/>
+	<context:component-scan base-package="com.foodDelivery.recommandDao"/>
+	<context:component-scan base-package="com.foodDelivery.recommandService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.reviewController"/>
+	<context:component-scan base-package="com.foodDelivery.reviewDao"/>
+	<context:component-scan base-package="com.foodDelivery.reviewService"/>
+	
+	<context:component-scan base-package="com.foodDelivery.zipcodeController"/>
+	<context:component-scan base-package="com.foodDelivery.zipcodeDao"/>
+	<context:component-scan base-package="com.foodDelivery.zipcodeService"/>
+	
+	
+</beans>

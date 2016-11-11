@@ -1,0 +1,409 @@
+@CHARSET "EUC-KR";
+
+.main {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+	overflow: hidden;
+	color: #414141;
+}
+.main_top {
+	width:900px;
+	margin:0px auto;
+	margin-top:50px;
+	border-bottom:1px black solid;
+	text-align:left;
+	
+}
+
+.main_font {
+	font-weight: bold;
+    font-size:30px;
+}
+
+.main_sub {
+	width:750px;
+	height:30px;
+	margin:0px auto;
+	margin-top:50px;
+	border-bottom:1px black solid;
+
+	text-align:left;
+}
+
+
+/*--------------------------search 버튼-------------------*/
+.search{
+	margin:0px auto;
+	width:750px;
+	padding: 10px;
+	text-align:right;
+}
+
+.search>input[type="text"]{
+	width: 200px;
+	height: 24px;
+}
+
+.search>input[type="button"]{
+	width: 50px;
+	height: 30px; 
+	background-color: #fac28b;
+	color: White;
+	padding-bottom: 2px;
+	border: none;
+}
+
+
+/*-------------------------- 회원정보 추천맛집 타이틀 -----------------------------*/
+.member_Admin_like_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.member_Admin_like_title>div{
+	float:left;
+	margin-right:5px;
+}
+
+.member_Admin_like_title>div:nth-child(1){
+	width:50px;
+	height:30px;
+}
+
+.member_Admin_like_title>div:nth-child(2) {
+	width:420px;
+	height:30px;
+}
+.member_Admin_like_title>div:nth-child(3) {
+	width:100px;
+	height:30px;
+}
+.member_Admin_like_title>div:nth-child(4) {
+	width:80px;
+	height:30px;
+}
+.member_Admin_like_title>div:nth-child(5) {
+	width:60px;
+	height:30px;
+}
+
+
+
+/*------------------ 회원정보 추천맛집 리스트---------------------- */
+.member_Admin_like_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+	
+}
+
+.member_Admin_like_list>div{
+	float:left;
+	margin-right: 5px;
+}
+.member_Admin_like_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+}
+.member_Admin_like_list>div:nth-child(2){
+	width:420px;
+	height:30px;
+	text-align: left;
+}
+.member_Admin_like_list>div:nth-child(3){
+	width:100px;
+	height:30px;
+}
+.member_Admin_like_list>div:nth-child(4){
+	width:80px;
+	height:30px;
+}
+.member_Admin_like_list>div:nth-child(5){
+	width:60px;
+	height:30px;
+}
+.member_Admin_like_list>div>input[type="button"] {
+	background-color: #414141;
+	color: white;
+	border: none;
+	width: 60px;
+	height: 25px;
+}
+
+
+/*-------------------------- 회원관리 QNA 타이틀 -----------------------------*/
+.member_Admin_qna_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.member_Admin_qna_title>div{
+	float:left;
+	margin-right:5px;
+}
+.member_Admin_qna_title>div:nth-child(1){
+	width:50px;
+	height:30px;
+}
+
+.member_Admin_qna_title>div:nth-child(2) {
+	width:100px;
+	height:30px;
+}
+.member_Admin_qna_title>div:nth-child(3) {
+	width:270px;
+	height:30px;
+}
+.member_Admin_qna_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.member_Admin_qna_title>div:nth-child(5) {
+	width:80px;
+	height:30px;
+}
+.member_Admin_qna_title>div:nth-child(6) {
+	width:100px;
+	height:30px;
+}
+
+
+
+/*------------------ 회원관리 QNA  리스트---------------------- */
+.member_Admin_qna_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+	
+}
+
+.member_Admin_qna_list>div{
+	float:left;
+	margin-right:5px;
+}
+
+.member_Admin_qna_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+}
+
+.member_Admin_qna_list>div:nth-child(2){
+	width:100px;
+	height:30px;
+}
+.member_Admin_qna_list>div:nth-child(3){
+	width:270px;
+	height:30px;
+	text-align: left;
+}
+.member_Admin_qna_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+.member_Admin_qna_list>div:nth-child(5){
+	width:80px;
+	height:30px;
+}
+.member_Admin_qna_list>div:nth-child(5)>input[type="button"]{
+	background-color: #414141;
+	color: white;
+	border: none;
+	width: 60px;
+	height: 25px;
+}
+.member_Admin_qna_list>div:nth-child(6){
+	width:100px;
+	height:30px;
+}
+.member_Admin_qna_list>div:nth-child(6)>input[type="button"]{
+	background-color: #414141;
+	color: white;
+	border: none;
+	width: 80px;
+	height: 25px;
+}
+
+/*-------------------------- 회원정보 리뷰 타이틀 -----------------------------*/
+
+.member_Admin_review_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.member_Admin_review_title>div{
+	float:left;
+	margin-right:5px;
+}
+
+.member_Admin_review_title>div:nth-child(1){
+	width:50px;
+	height:30px;
+}
+
+.member_Admin_review_title>div:nth-child(2) {
+	width:270px;
+	height:30px;
+}
+.member_Admin_review_title>div:nth-child(3) {
+	width:100px;
+	height:30px;
+}
+.member_Admin_review_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.member_Admin_review_title>div:nth-child(5) {
+	width:130px;
+	height:30px;
+}
+.member_Admin_review_title>div:nth-child(6) {
+	width:50px;
+	height:30px;
+}
+
+
+/*------------------ 회원정보 리뷰 리스트---------------------- */
+.member_Admin_review_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+	
+}
+
+.member_Admin_review_list>div{
+	float:left;
+	margin-right:5px;
+}
+.member_Admin_review_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+}
+
+.member_Admin_review_list>div:nth-child(2){
+	width:270px;
+	height:30px;
+	text-align: left;
+}
+
+.member_Admin_review_list>div:nth-child(3){
+	width:100px;
+	height:30px;
+}
+.member_Admin_review_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+.member_Admin_review_list>div:nth-child(5){
+	width:130px;
+	height:30px;
+}
+.member_Admin_review_list>div:nth-child(6){
+	width:50px;
+	height:30px;
+}
+.member_Admin_review_list>div>input[type="button"]{
+	background-color: #414141;
+	color: white;
+	border: none;
+	width: 50px;
+	height: 25px;
+}
+
+/*-------------------qna_Mag_title------------------------------*/
+
+.qna_Mag_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.qna_Mag_title>div{
+	float:left;
+	margin-right:5px;
+}
+
+.qna_Mag_title>div:nth-child(1){
+	width:150px;
+	height:30px;
+}
+
+.qna_Mag_title>div:nth-child(2) {
+	width:100px;
+	height:30px;
+}
+.qna_Mag_title>div:nth-child(3) {
+	width:230px;
+	height:30px;
+}
+.qna_Mag_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.qna_Mag_title>div:nth-child(5) {
+	width:50px;
+	height:30px;
+}
+.qna_Mag_title>div:nth-child(6) {
+	width:80px;
+	height:30px;
+}
+
+/*------------------ qna_Mag_list---------------------- */
+.qna_Mag_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+	
+}
+
+.qna_Mag_list>div{
+	float:left;
+	margin-right:5px;
+}
+
+.qna_Mag_list>div:nth-child(1) {
+	width:150px;
+	height:30px;
+}
+
+.qna_Mag_list>div:nth-child(2){
+	width:100px;
+	height:30px;
+}
+
+.qna_Mag_list>div:nth-child(3){
+	width:230px;
+	height:30px;
+}
+.qna_Mag_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+.qna_Mag_list>div:nth-child(5){
+	width:50px;
+	height:30px;
+}
+.qna_Mag_list>div:nth-child(6){
+	width:80px;
+	height:30px;
+}

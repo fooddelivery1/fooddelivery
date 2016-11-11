@@ -1,0 +1,50 @@
+@CHARSET "EUC-KR";
+
+
+.find {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.find_top {
+	width:900px;
+	margin:0px auto;
+	margin-top:50px;
+	border-bottom:1px black solid;
+	text-align:left;
+	
+}
+
+.find_font {
+	font-weight: bold;
+    font-size:30px;
+}
+
+.find_main{
+	width:300px;
+	height:150px;
+	/* border:1px solid #414141; */
+	text-align:center;
+	margin:0px auto;
+	/* padding-top:30px; */
+	margin-top:100px;
+}
+
+.find_main>div {
+	margin:10px;
+}
+
+.find_input {
+	width:300px;
+	height:40px;
+	border:1px solid #fbd1a8;
+}
+
+.find_submit {
+	width:305px;
+	height:40px;
+	border:0px;
+	color:white;
+}

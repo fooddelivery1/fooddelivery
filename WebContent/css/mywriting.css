@@ -1,0 +1,338 @@
+@CHARSET "EUC-KR";
+.qna_main {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+	overflow: hidden;
+}
+.content{
+	margin-bottom: 100px;
+}
+.qna_top{
+	margin:0px auto;
+	width:900px;
+	height: 37px;
+	text-align: center;
+	border-bottom: 1px solid #414141;
+}
+.qna_top>div{
+	width: 18%;
+	height: 26px;
+	display: block;
+	float:left;	
+	margin: 4px;
+	font-style: bold;
+}
+.qna_top2{
+	margin:0px auto;
+	width:900px;
+	height: 37px;
+	text-align: center;
+	border-bottom: 1px solid #414141;
+}
+.qna_top2>div{
+	width: 18%;
+	height: 26px;
+	display: block;
+	float:left;	
+	margin: 4px;
+	font-style: bold;
+	font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+.qna_top>div>a{
+	text-decoration: none;
+	color: #414141;
+}
+
+.qna_top>div:FIRST-CHILD{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+.qna_top>div:LAST-CHILD{
+	width: 18%;
+	height: 20px;
+	padding-top:10px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.qna_font {
+	font-weight: bold;
+    font-size:30px;
+}
+
+.qna_title{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+/*-------------------------- review 테이블 ------------------------------- */
+.review_title{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.review_title>div{
+	float:left;
+}
+
+.review_title>div:nth-child(1){   /* 번호 */
+	margin:0px 25px 0px 35px;
+	
+}
+
+.review_title>div:nth-child(2){   /* 업체명 */
+	margin-left:35px;
+	width:50px;
+	height:30px;
+}
+
+.review_title>div:nth-child(3){   /* 제목 */
+	margin-left:200px;
+	width:50px;
+	height:30px;
+
+}
+
+.review_title>div:nth-child(4){    /* 닉네임 */
+	margin-left:190px;
+	width:50px;
+	height:30px;
+}
+
+.review_title>div:nth-child(5){   /* 작성일 */
+	margin-left:55px;
+	width:50px;
+	height:30px;
+}
+
+/*-------------------------- review 리스트 -----------------------------*/
+.review_list{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.review_list>div{
+	float:left;
+/* 	border:1px solid black; */
+}
+
+.review_list>div:nth-child(1){		/* 번호 */
+	margin-left:30px;
+	width:50px;
+	height:30px;
+}
+
+.review_list>div:nth-child(2){		/* 분류 */
+	width:100px;
+	height:30px;
+	margin-left:20px;
+}
+
+.review_list>div:nth-child(3){		/* 제목 */
+	width:350px;
+	height:30px;
+	margin-left:10px;
+	text-align: left;
+}
+
+.review_list>div:nth-child(4){		/* 작성일 */
+	width:120px;
+	height:30px;
+	margin-left:20px;
+}
+
+.review_list>div:nth-child(5){
+	width:85px;
+	height:30px;
+	margin-left: 5px;
+}
+
+
+
+/*-------------------------- QNA 테이블 -----------------------------*/
+.qna_title>div{
+	float:left;
+}
+
+.qna_title>div:nth-child(1){
+	margin:0px 25px 0px 45px;
+	
+}
+
+.qna_title>div:nth-child(2){	
+	margin-left:45px;
+	width:50px;
+	height:30px;
+}
+
+.qna_title>div:nth-child(3){	
+	margin-left:215px;
+	width:50px;
+	height:30px;
+
+}
+
+.qna_title>div:nth-child(4){
+	margin-left:235px;
+	width:50px;
+	height:30px;
+
+}
+/*------------------QNA 리스트---------------------- */
+.qna_list {
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+}
+
+.qna_list>div{
+	float:left;
+}
+
+.qna_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+	margin-left:40px;
+	
+}
+
+.qna_list>div:nth-child(2){
+	width:100px;
+	height:30px;
+	margin-left:29px;
+}
+
+.qna_list>div:nth-child(3) {
+	width:400px;
+	height:30px;
+	margin-left:20px;
+	text-align: left;
+}
+
+.qna_list>div:nth-child(4){
+	width:120px;
+	height:30px;
+	margin-left:20px;
+}
+
+/*-------------------------- 추천맛집 테이블 -----------------------------*/
+/*-------------------------- 추천맛집 타이틀 -----------------------------*/
+.like_title{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.like_title>div{
+	float:left;
+}
+
+.like_title>div:nth-child(1){ 	  /* 번호 */
+	margin:0px 25px 0px 30px;
+	
+}
+
+.like_title>div:nth-child(2){ 	  /* 제목 */
+	margin-left:200px;
+	width:50px;
+	height:30px;
+
+}
+
+.like_title>div:nth-child(3){ 	  /* 작성일 */
+	margin-left: 260px;
+	width:50px;
+	height:30px;
+}
+
+.like_title>div:nth-child(4){ 	  /* 조회수 */
+	margin-left:55px;
+	width:50px;
+	height:30px;
+}
+
+/*-------------------------- 추천맛집 리스트 -----------------------------*/
+.like_list{
+	width:800px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top: 5px;
+	border-bottom:1px solid black;
+	
+}
+.like_list>div{
+	float:left;
+}
+
+.like_list>div:nth-child(1){
+	margin-left: 25px;
+	width:50px;
+	height:30px;
+}
+
+.like_list>div:nth-child(2){
+	width:100px;
+	height:30px;
+	margin-left:19px;
+}
+
+.like_list>div:nth-child(3){
+	width:350px;
+	height:30px;
+	margin-left:10px;
+	text-align: left;
+}
+
+.like_list>div:nth-child(4){
+	width:120px;
+	height:30px;
+	margin-left:20px;
+}
+
+.like_list>div:nth-child(5){
+	width:70px;
+	height:30px;
+	margin-left:10px;
+}
+
+.like_list>div:nth-child(1){
+	margin-left: 25px;
+	width:50px;
+	height:30px;
+}
+
+.like_list>div:nth-child(2){
+	width:470px;
+	height:30px;
+	margin-left:10px;
+	text-align: left;
+}
+
+.like_list>div:nth-child(3){
+	width:100px;
+	height:30px;
+	margin-left:15px;
+	text-align: center;
+}
+
+.like_list>div:nth-child(4){
+	width:70px;
+	height:30px;
+	margin-left:20px;
+}

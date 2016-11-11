@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+     <mapper namespace="foodDelivery.memberMapper">
+     
+      <select id="login" parameterType="java.util.HashMap" resultType="Integer">
+   		select member_num from member where member_email = #{email} and member_password = #{password}
+ 	  </select>
+     
+      <insert id="memberInsert" parameterType="com.foodDelivery.memberDto.MemberDto">
+	   	insert into member values(member_num_sql.nextval,#{nickname},#{email},
+	   	#{password},#{birth},#{phone},#{zipcode},#{address},#{date})
+		</insert> 
+    
+    
+    	<select id="memberIdCheck" parameterType="String" resultType="String">
+   			select member_email from member where member_email=#{email}
+   		</select>
+   		
+   		 <select id="zipcode" resultType="com.foodDelivery.zipcodeDto.ZipcodeDto" parameterType="String">
+   			select * from zipcode where gu=#{gu}
+		 </select>
+		 
+		 <select id="idSearch" parameterType="java.util.HashMap" resultType="String">
+		 	select member_email from member where member_nickname=#{nickname} and member_phone=#{phone}
+		 </select>
+		 
+		 <select id="passwordSearch" parameterType="java.util.HashMap" resultType="String">
+		 	select member_password from member where member_email=#{email} and member_phone=#{phone}
+		 </select>
+		 
+		 <select id="deletePasswordCheck" parameterType="java.util.HashMap" resultType="String">
+		 	select member_num from member where member_email=#{email} and member_password=#{password}
+		 </select>
+		 
+		 <delete id="deleteMember" parameterType="Integer">
+		 	delete from member where member_num=#{str}
+		 </delete>
+    </mapper>

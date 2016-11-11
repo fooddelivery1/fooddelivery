@@ -1,0 +1,475 @@
+@CHARSET "EUC-KR";
+
+.mypage_List_All_main {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+	overflow: hidden;
+	color: #414141;
+}
+
+.mypage_List_All_top {
+	width:900px;
+	margin:0px auto;
+	margin-top:50px;
+	border-bottom:1px black solid;
+	text-align:left;
+}
+
+
+/*-----------------------------list_All search 부분------------------------------------*/
+.mypage_List_All_search{
+	margin:0px auto;
+	width:750px;
+	padding: 10px;
+	text-align:right;
+}
+
+.mypage_List_All_search>input[type="text"]{
+	width: 200px;
+	height: 24px;
+}
+
+.mypage_List_All_search>input[type="button"]{
+	width: 50px;
+	height: 30px; 
+	background-color: #fac28b;
+	color: White;
+	padding-bottom: 2px;
+	border: none;
+}
+
+.mypage_List_All_search_2{
+	background-image: url('../img/search2.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*-------------------------- 마이페이지 최근주문내역 전체보기 타이틀-----------------------------*/
+.mypage_recent_order_all_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.mypage_recent_order_all_title>div{
+	float:left;
+}
+
+.mypage_recent_order_all_title>div:nth-child(1), .mypage_recent_order_all_title>div:nth-child(2), 
+.mypage_recent_order_all_title>div:nth-child(3), .mypage_recent_order_all_title>div:nth-child(4),
+.mypage_recent_order_all_title>div:nth-child(5) {
+	margin-right:5px;
+}
+
+.mypage_recent_order_all_title>div:nth-child(1){
+	width:100px;
+	height:30px;
+}
+
+.mypage_recent_order_all_title>div:nth-child(2) {
+	width:100px;
+	height:30px;
+}
+.mypage_recent_order_all_title>div:nth-child(3) {
+	width:230px;
+	height:30px;
+}
+.mypage_recent_order_all_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.mypage_recent_order_all_title>div:nth-child(5) {
+	width:80px;
+	height:30px;
+}
+.mypage_recent_order_all_title>div:nth-child(6) {
+	width:100px;
+	height:30px;
+}
+
+
+
+/*------------------ 마이페이지 최근주문내역 전체보기 리스트---------------------- */
+.mypage_recent_order_all_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+	
+}
+
+.mypage_recent_order_all_list>div{
+	float:left;
+}
+
+.mypage_recent_order_all_list>div:nth-child(1), .mypage_recent_order_all_list>div:nth-child(2), 
+.mypage_recent_order_all_list>div:nth-child(3), .mypage_recent_order_all_list>div:nth-child(4),
+.mypage_recent_order_all_list>div:nth-child(5) {
+	margin-right:5px;
+}
+
+.mypage_recent_order_all_list>div:nth-child(1) {
+	width:100px;
+	height:30px;
+}
+
+.mypage_recent_order_all_list>div:nth-child(2){
+	width:100px;
+	height:30px;
+}
+.mypage_recent_order_all_list>div:nth-child(3){
+	width:230px;
+	height:30px;
+}
+.mypage_recent_order_all_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+.mypage_recent_order_all_list>div:nth-child(5){
+	width:80px;
+	height:30px;
+}
+.mypage_recent_order_all_list>div:nth-child(6){
+	width:100px;
+	height:30px;
+}
+
+
+
+/*-------------------------- 마이페이지 리뷰 전체보기 타이틀 -----------------------------*/
+.mypage_review_all_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.mypage_review_all_title>div{
+	float:left;
+}
+
+.mypage_review_all_title>div:nth-child(1), .mypage_review_all_title>div:nth-child(2), 
+.mypage_review_all_title>div:nth-child(3), .mypage_review_all_title>div:nth-child(4) {
+	margin-right:5px;
+}
+
+.mypage_review_all_title>div:nth-child(1){
+	width:50px;
+	height:30px;
+}
+
+.mypage_review_all_title>div:nth-child(2) {
+	width:250px;
+	height:30px;
+}
+.mypage_review_all_title>div:nth-child(3) {
+	width:150px;
+	height:30px;
+}
+.mypage_review_all_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.mypage_review_all_title>div:nth-child(5) {
+	width:170px;
+	height:30px;
+}
+
+
+
+/*------------------ 마이페이지 리뷰 전체보기 리스트---------------------- */
+.mypage_review_all_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+}
+
+.mypage_review_all_list>div{
+	float:left;
+}
+
+.mypage_review_all_list>div:nth-child(1), .mypage_review_all_list>div:nth-child(2), 
+.mypage_review_all_list>div:nth-child(3), .mypage_review_all_list>div:nth-child(4) {
+	margin-right:5px;
+}
+
+.mypage_review_all_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+}
+
+.mypage_review_all_list>div:nth-child(2){
+	width:250px;
+	height:30px;
+	text-align:left;
+}
+
+.mypage_review_all_list>div:nth-child(3){
+	width:150px;
+	height:30px;
+}
+
+.mypage_review_all_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+
+.mypage_review_all_list>div:nth-child(5){
+	width:170px;
+	height:30px;
+}
+
+/*-------------------------- 마이페이지 QnA전체보기 타이틀 -----------------------------*/
+.mypage_qna_all_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.mypage_qna_all_title>div{
+	float:left;
+}
+
+.mypage_qna_all_title>div:nth-child(1), .mypage_qna_all_title>div:nth-child(2), 
+.mypage_qna_all_title>div:nth-child(3) {
+	margin-right:5px;
+}
+
+.mypage_qna_all_title>div:nth-child(1){
+	width:70px;
+	height:30px;
+}
+
+.mypage_qna_all_title>div:nth-child(2) {
+	width:150px;
+	height:30px;
+}
+.mypage_qna_all_title>div:nth-child(3) {
+	width:405px;
+	height:30px;
+}
+.mypage_qna_all_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+
+
+/*------------------ 마이페이지 QnA전체보기 리스트---------------------- */
+.mypage_qna_all_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+}
+
+.mypage_qna_all_list>div{
+	float:left;
+}
+
+.mypage_qna_all_list>div:nth-child(1), .mypage_qna_all_list>div:nth-child(2), 
+.mypage_qna_all_list>div:nth-child(3) {
+	margin-right:5px;
+}
+
+.mypage_qna_all_list>div:nth-child(1) {
+	width:70px;
+	height:30px;
+}
+
+.mypage_qna_all_list>div:nth-child(2){
+	width:150px;
+	height:30px;
+}
+
+.mypage_qna_all_list>div:nth-child(3){
+	width:405px;
+	height:30px;
+	text-align:left;
+}
+
+.mypage_qna_all_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+
+/*-------------------------- 마이페이지 고객추천맛집 전체보기 타이틀 -----------------------------*/
+.mypage_like_all_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.mypage_like_all_title>div{
+	float:left;
+}
+
+.mypage_like_all_title>div:nth-child(1), .mypage_like_all_title>div:nth-child(2), 
+.mypage_like_all_title>div:nth-child(3), .mypage_like_all_title>div:nth-child(4) {
+	margin-right:5px;
+}
+
+.mypage_like_all_title>div:nth-child(1){
+	width:50px;
+	height:30px;
+}
+
+.mypage_like_all_title>div:nth-child(2) {
+	width:150px;
+	height:30px;
+}
+.mypage_like_all_title>div:nth-child(3) {
+	width:320px;
+	height:30px;
+}
+.mypage_like_all_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.mypage_like_all_title>div:nth-child(5) {
+	width:100px;
+	height:30px;
+}
+
+
+
+/*------------------ 마이페이지 고객추천맛집 전체보기 리스트---------------------- */
+.mypage_like_all_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+}
+
+.mypage_like_all_list>div{
+	float:left;
+}
+
+.mypage_like_all_list>div:nth-child(1), .mypage_like_all_list>div:nth-child(2), 
+.mypage_like_all_list>div:nth-child(3), .mypage_like_all_list>div:nth-child(4) {
+	margin-right:5px;
+}
+
+.mypage_like_all_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+}
+
+.mypage_like_all_list>div:nth-child(2){
+	width:150px;
+	height:30px;
+}
+
+.mypage_like_all_list>div:nth-child(3){
+	width:320px;
+	height:30px;
+	text-align:left;
+}
+
+.mypage_like_all_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+
+.mypage_like_all_list>div:nth-child(5){
+	width:100px;
+	height:30px;
+}
+
+
+/*-------------------------- 마이페이지 결제내역 전체보기 타이틀 -----------------------------*/
+.mypage_account_all_title{
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:40px;
+	border-bottom:1px solid black;
+}
+
+.mypage_account_all_title>div{
+	float:left;
+}
+
+.mypage_account_all_title>div:nth-child(1), .mypage_account_all_title>div:nth-child(2), 
+.mypage_account_all_title>div:nth-child(3), .mypage_account_all_title>div:nth-child(4) {
+	margin-right:5px;
+}
+
+.mypage_account_all_title>div:nth-child(1){
+	width:50px;
+	height:30px;
+}
+
+.mypage_account_all_title>div:nth-child(2) {
+	width:320px;
+	height:30px;
+}
+.mypage_account_all_title>div:nth-child(3) {
+	width:120px;
+	height:30px;
+}
+.mypage_account_all_title>div:nth-child(4) {
+	width:100px;
+	height:30px;
+}
+.mypage_account_all_title>div:nth-child(5) {
+	width:130px;
+	height:30px;
+}
+
+
+
+/*------------------ 마이페이지 결제내역 전체보기 리스트---------------------- */
+.mypage_account_all_list {
+	width:750px;
+	overflow: hidden;
+	margin:0px auto;
+	margin-top:5px;
+	border-bottom:1px solid black;
+}
+
+.mypage_account_all_list>div{
+	float:left;
+}
+
+.mypage_account_all_list>div:nth-child(1), .mypage_account_all_list>div:nth-child(2), 
+.mypage_account_all_list>div:nth-child(3), .mypage_account_all_list>div:nth-child(4) {
+	margin-right:5px;
+}
+
+.mypage_account_all_list>div:nth-child(1) {
+	width:50px;
+	height:30px;
+}
+
+.mypage_account_all_list>div:nth-child(2){
+	width:320px;
+	height:30px;
+}
+
+.mypage_account_all_list>div:nth-child(3){
+	width:120px;
+	height:30px;
+}
+
+.mypage_account_all_list>div:nth-child(4){
+	width:100px;
+	height:30px;
+}
+
+.mypage_account_all_list>div:nth-child(5){
+	width:130px;
+	height:30px;
+}

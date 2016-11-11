@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+li{list-style-type: none;}
+
+.fdbody{
+   width:100%;margin:0px auto;
+   overflow: hidden;
+   color: #414141;
+}
+
+.header_1{
+   width:1000px;
+   overflow: hidden;
+   margin: 0px auto;
+   margin-top:10px;
+   border: 0px solid black;
+   border-bottom:2px solid #414141;
+}
+
+.header_Sidelogo{
+   width:20%;
+   height: 50px;
+   border:0px solid blue;
+   display: block;
+   float: left;
+}
+
+.header_line{
+   width:79%;
+   height:29px;
+   border:0px solid red;
+   display: block;
+   float: left;
+}
+
+.header_welcome{
+   width:39%;
+   height: 29px;
+   line-height: 49px;
+   border:0px solid black;
+   display:block;
+   float: left;
+   text-align: center;
+}
+.header_list{
+   width:39%;
+   height: 49px;
+   line-height: 49px;
+   border:0px solid blue;
+   display: block;
+   float:left;
+   text-align: right;
+}
+.header_list div{
+   display: inline-block;
+}
