@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="${root}/css/index.css">
 <link rel="stylesheet" type="text/css" href="${root}/css/header.css">
 <body>
+<div>건용수정</div>
 <jsp:include page="/WEB-INF/view/header/header.jsp"/>
 <div class="fdbody">
 	<div class="header">
@@ -25,6 +26,7 @@
 				<input type="button" value=" " class="header_search_2">
 			</div>
 		</div>
+		
 	</div>
 	<div class="content">
 		<div class="content_list">
